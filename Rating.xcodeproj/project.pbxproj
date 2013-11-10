@@ -114,6 +114,7 @@
 		8823BB45182E2161001DE6CD /* Rating */ = {
 			isa = PBXGroup;
 			children = (
+				88628AAC182E94CA00208B06 /* iPad */,
 				8823BB4E182E2161001DE6CD /* RateAppDelegate.h */,
 				8823BB4F182E2161001DE6CD /* RateAppDelegate.m */,
 				8823BB51182E2161001DE6CD /* Main_iPhone.storyboard */,
@@ -153,6 +154,13 @@
 				8823BB6A182E2161001DE6CD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		88628AAC182E94CA00208B06 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,7 +404,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rating/Rating-Prefix.pch";
 				INFOPLIST_FILE = "Rating/Rating-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -409,7 +419,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Rating/Rating-Prefix.pch";
 				INFOPLIST_FILE = "Rating/Rating-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -475,6 +487,7 @@
 				8823BB73182E2161001DE6CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8823BB74182E2161001DE6CD /* Build configuration list for PBXNativeTarget "RatingTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +496,7 @@
 				8823BB76182E2161001DE6CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
